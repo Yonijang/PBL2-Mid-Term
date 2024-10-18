@@ -58,7 +58,7 @@ public class MyApp
             }
             
             System.out.println("총점: " + totalScore);
-            System.out.printf("평균: %.2f\n", averageScore);
+            System.out.printf("평균: %.1f\n", averageScore);
             
         } catch (FileNotFoundException e) {
             System.out.println("파일을 찾을 수 없습니다: " + filePath);
